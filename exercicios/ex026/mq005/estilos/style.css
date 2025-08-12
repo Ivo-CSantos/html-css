@@ -12,24 +12,29 @@ body {
 
 header {
   background-color: rgb(158, 158, 158);
-  height: 150px;
 }
 header h1 {
   display: block;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
-header nav {
-  margin-top: 62px;
+nav {
+  display: none;
 }
 
 header a {
+  display: block;
   color: white;
   text-decoration: none;
   padding: 10px;
-  margin: -1px;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(82, 82, 82);
+  border-top: 2px solid gray;
+}
+
+header a:hover {
+  background-color: rgb(160, 160, 160);
+  transition: 0.2s;
 }
 
 main {
@@ -46,4 +51,23 @@ main h1 {
 
 main p {
   margin-top: 35px;
+}
+
+article p {
+  text-align: justify;
+}
+
+span#burger {
+  background-color: rgb(61, 61, 61);
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span#burger:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
 }
