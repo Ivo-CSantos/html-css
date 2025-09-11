@@ -10,11 +10,42 @@
 p,
 h1,
 h2 {
-  margin: 10px;
+  margin: 20px 0px;
 }
 
+header {
+  padding: 10px;
+}
 main {
-  display: flex;
-  flex-flow: column nowrap;
+  padding: 50px 0px 20px 10px;
   background-color: rgb(207, 207, 207);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+section p {
+  width: 98%;
+  text-align: justify;
+}
+
+footer {
+  padding: 10px 0px 10px 10px;
+}
+
+img,
+iframe {
+  flex: 0 1 auto;
+  margin-right: 20px;
+}
+
+section#section-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+section#section-normal {
+  flex-wrap: wrap;
 }
