@@ -1,14 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 560px) {
-  header.container {
-    flex-flow: row wrap;
-    justify-content: space-between;
-    column-gap: 50px;
-  }
-  header nav {
-    flex-flow: row;
-    margin-top: 10px;
-    align-content: flex-end;
-  }
+header.container {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+header nav {
+  flex-flow: row;
+  margin-top: 10px;
+  align-content: flex-end;
 }
